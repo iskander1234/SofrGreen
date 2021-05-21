@@ -1,0 +1,22 @@
+<div style="margin-left: 50px;
+    margin-top: 35px;">
+  <form style="width: 300px" [formGroup]="_exform">
+    <div class="form-group">
+      <label class="col-form-label">Email:</label>
+      <input formControlName="email" type="text" class="form-control" >
+      <small *ngIf="email.invalid && email.touched" class="text-danger">Enter your Email correctly !!!</small>
+    </div>
+
+    <div class="form-group">
+      <label class="col-form-label">Phone:</label>
+      <input formControlName="password" type="password" class="form-control" >
+      <small *ngIf="password.invalid && password.touched" class="text-danger">Enter the password correctly, the minimum length is 10 characters !!!</small>
+    </div>
+
+
+    <button (click)="clicksub()" [disabled]="_exform.invalid" type="button" class="btn btn-primary">Login</button>
+
+  </form>
+</div>
+
+

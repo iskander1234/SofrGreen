@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background: #E8EBF0;
+}
+.link1{
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px #000000;
+  padding: 10px;
+  color: black;
+}
+.link1:hover{
+  text-decoration: none;
+  color: #A6EDB2;
+}
+.active{
+  color: red;
+}
+.logo-bold{
+  font-weight: 900;
+}
+.navbar-brand{
+  font-size: 35px;
+}
+.carousel-main{
+  background: #A6EDB2;
+  padding: 100px;
+}
+.slide-description{
+  display: block;
+  padding: 150px;
+  vertical-align: middle;
+}
+.decsription_slider{
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 1px 7px black;
+}
+.heading_slider{
+  font-size: 20px;
+  color: black;
+  text-shadow: 2px 1px 7px white;
+}
+.cards{
+  background: #E8EBF0;
+  padding: 50px;
+}
+.carousel-caption{
+  z-index: 100;
+  top: 33%;
+  left: 15%;
+}
+.card{
+  background: #E8EBF0;
+}
+.card-link{
+  color: #A6EDB2;
+}
+.fa-chevron-right{
+  font-size: 12px;
+  color: black;
+  line-height: 10px;
+}
+.fa-pencil-alt{
+
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 7px;
+  background: #82E4ED;
+  color: white;
+
+}
+.fa-vector-square{
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 7px;
+  background: #A6EDB2;
+  color: white;
+
+}
+.fa-bars{
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 7px;
+  background: #82E4ED;
+  color: white;
+}
+.fa-telegram-plane{
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 7px;
+  background: #A6EDB2;
+  color: white;
+}
+.lates{
+  text-transform: uppercase;
+}
+.fa-mouse-pointer{
+  color: #82E4ED;
+}
+.button{
+  text-transform: uppercase;
+  padding-top: 19px;
+  height: 60px;
+  width: 250px;
+  color: black;
+  background: #82E4ED;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.fa-download{
+  font-size: 20px;
+  color: white;
+}
+.description{
+  text-transform: uppercase;
+}
+.fa-comment-dots{
+  color: #A6EDB2;
+}
+.description-3{
+  font-weight: 700;
+}
+.footer{
+  background: #E8EBF0;
+}
+.footer_conten{
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 18px;
+  padding-right: 30%;
+}
